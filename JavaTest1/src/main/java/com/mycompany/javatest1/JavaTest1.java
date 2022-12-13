@@ -10,8 +10,12 @@ package com.mycompany.javatest1;
  * @author willi
  */
 public class JavaTest1 {
-
+int x;
+    public JavaTest1(){ //default constructor 
+        x=5;
+    }
     public static void main(String[] args) {
-        System.out.println("try connecting!");
+        JavaTest1 myobj=new JavaTest1();
+        System.out.println(myobj.x);
     }
 }
