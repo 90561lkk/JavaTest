@@ -12,6 +12,6 @@ package com.mycompany.javatest1;
 public class JavaTest1 {
 
     public static void main(String[] args) {
-        System.out.println("first git!");
+        System.out.println("try connecting!");
     }
 }
