@@ -9,15 +9,17 @@ package com.mycompany.javatest1;
  *
  * @author willi
  */
+import java.util.Scanner;
 public class JavaTest1 {
 int x;
     public JavaTest1(){ //default constructor 
         x=5;
     }
     public static void main(String[] args) {
-        JavaTest1 myobj=new JavaTest1();
-        System.out.println(myobj.x);
-         System.out.println("working stage test");
-         System.out.println("test push");
+        	Scanner sc =new Scanner(System.in);
+			int year=Integer.valueOf(sc.nextLine());
+		if(year % 100 ==0 ){
+			System.out.print("It leap year");
+                }
     }
 }
