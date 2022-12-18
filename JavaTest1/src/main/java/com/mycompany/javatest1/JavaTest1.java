@@ -11,15 +11,8 @@ package com.mycompany.javatest1;
  */
 import java.util.Scanner;
 public class JavaTest1 {
-int x;
-    public JavaTest1(){ //default constructor 
-        x=5;
-    }
     public static void main(String[] args) {
-        	Scanner sc =new Scanner(System.in);
-			int year=Integer.valueOf(sc.nextLine());
-		if(year % 100 ==0 ){
-			System.out.print("It leap year");
-                }
+        Person william=new Person("william");
+               
     }
 }
