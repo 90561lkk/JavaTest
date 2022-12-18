@@ -13,6 +13,6 @@ import java.util.Scanner;
 public class JavaTest1 {
     public static void main(String[] args) {
         Person william=new Person("william");
-               
+               william.display();
     }
 }

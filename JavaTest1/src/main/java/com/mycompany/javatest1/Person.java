@@ -16,4 +16,8 @@ public class Person {
         this.age=0;
         this.name=initialName;
     }
+    
+    public void display(){
+        System.out.print(name+"age is "+age);
+    }
 }
